@@ -1,0 +1,62 @@
+body {
+    background-color: #283618;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    width: max-content;
+    margin: 18% auto;
+
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    border: 4px solid #adb5bd;
+    margin-left: 5px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 230px;
+
+
+    height: 150px;
+    width: 60px;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: 130px;
+    position: relative;
+    //right: 470px;
+
+    height: 100px;
+    width: 40px;
+}
+#W {
+    position: relative;
+    right: 455px;
+}
+#E {
+    position: relative;
+    right: 425px;
+}
+#T {
+    position: relative;
+    right: 325px;
+}
+#Y {
+    position: relative;
+    right: 295px;
+}
+#U {
+    position: relative;
+    right: 265px;
+}
